@@ -1,0 +1,106 @@
+2023-12-02 13:31:57,467 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\conf\zoo.cfg
+2023-12-02 13:31:57,473 [myid:] - WARN  [main:o.a.z.s.u.VerifyingFileFactory@65] - \tmp\zookeeper is relative. Prepend .\ to indicate that you're sure!
+2023-12-02 13:31:57,474 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@440] - clientPortAddress is 0.0.0.0:2181
+2023-12-02 13:31:57,476 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+2023-12-02 13:31:57,477 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+2023-12-02 13:31:57,477 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2023-12-02 13:31:57,479 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2023-12-02 13:31:57,479 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2023-12-02 13:31:57,479 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@101] - Purge task is not scheduled.
+2023-12-02 13:31:57,480 [myid:] - WARN  [main:o.a.z.s.q.QuorumPeerMain@139] - Either no config or no quorum defined in config, running in standalone mode
+2023-12-02 13:31:57,482 [myid:] - INFO  [main:o.a.z.j.ManagedUtil@46] - Log4j 1.2 jmx support not found; jmx disabled.
+2023-12-02 13:31:57,482 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\conf\zoo.cfg
+2023-12-02 13:31:57,483 [myid:] - WARN  [main:o.a.z.s.u.VerifyingFileFactory@65] - \tmp\zookeeper is relative. Prepend .\ to indicate that you're sure!
+2023-12-02 13:31:57,484 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@440] - clientPortAddress is 0.0.0.0:2181
+2023-12-02 13:31:57,484 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+2023-12-02 13:31:57,484 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+2023-12-02 13:31:57,484 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2023-12-02 13:31:57,484 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServerMain@123] - Starting server
+2023-12-02 13:31:57,499 [myid:] - INFO  [main:o.a.z.s.ServerMetrics@64] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@682b2fa
+2023-12-02 13:31:57,503 [myid:] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@51] - ACL digest algorithm is: SHA1
+2023-12-02 13:31:57,503 [myid:] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@65] - zookeeper.DigestAuthenticationProvider.enabled = true
+2023-12-02 13:31:57,506 [myid:] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2023-12-02 13:31:57,518 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+2023-12-02 13:31:57,518 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -   ______                  _                                          
+2023-12-02 13:31:57,518 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -  |___  /                 | |                                         
+2023-12-02 13:31:57,518 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2023-12-02 13:31:57,518 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2023-12-02 13:31:57,518 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2023-12-02 13:31:57,518 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2023-12-02 13:31:57,518 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               | |                     
+2023-12-02 13:31:57,518 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               |_|                     
+2023-12-02 13:31:57,518 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+2023-12-02 13:31:57,522 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:zookeeper.version=3.9.1-1398af177833412e9ead6b9bb737dc9fd7418a45, built on 2023-10-04 09:54 UTC
+2023-12-02 13:31:57,522 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:host.name=LAPTOP-EERJP9U6
+2023-12-02 13:31:57,522 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.version=17
+2023-12-02 13:31:57,522 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.vendor=Oracle Corporation
+2023-12-02 13:31:57,522 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.home=C:\Program Files\Java\jdk-17
+2023-12-02 13:31:57,522 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.class.path=C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\zookeeper-metrics-providers\zookeeper-prometheus-metrics\target\classes;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\zookeeper-server\target\classes;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\build\classes;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\zookeeper-metrics-providers\zookeeper-prometheus-metrics\target\lib\*.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\zookeeper-server\target\lib\*.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\build\lib\*.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\zookeeper-prometheus-metrics-3.9.1.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\zookeeper-jute-3.9.1.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\zookeeper-3.9.1.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\snappy-java-1.1.10.5.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\slf4j-api-1.7.30.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\simpleclient_servlet-0.9.0.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\simpleclient_hotspot-0.9.0.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\simpleclient_common-0.9.0.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\simpleclient-0.9.0.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-transport-native-unix-common-4.1.94.Final.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-transport-native-epoll-4.1.94.Final-linux-x86_64.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-transport-classes-epoll-4.1.94.Final.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-transport-4.1.94.Final.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-tcnative-classes-2.0.61.Final.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-tcnative-boringssl-static-2.0.61.Final.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-resolver-4.1.94.Final.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-handler-4.1.94.Final.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-common-4.1.94.Final.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-codec-4.1.94.Final.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\netty-buffer-4.1.94.Final.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\metrics-core-4.1.12.1.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\logback-core-1.2.10.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\logback-classic-1.2.10.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jline-2.14.6.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jetty-util-ajax-9.4.52.v20230823.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jetty-util-9.4.52.v20230823.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jetty-servlet-9.4.52.v20230823.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jetty-server-9.4.52.v20230823.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jetty-security-9.4.52.v20230823.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jetty-io-9.4.52.v20230823.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jetty-http-9.4.52.v20230823.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\javax.servlet-api-3.1.0.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jackson-databind-2.15.2.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jackson-core-2.15.2.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\jackson-annotations-2.15.2.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\commons-io-2.11.0.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\commons-cli-1.5.0.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\lib\audience-annotations-0.12.0.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\zookeeper-*.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\zookeeper-server\src\main\resources\lib\*.jar;C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin\conf;.
+2023-12-02 13:31:57,522 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.library.path=C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\acrib\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\acrib\bin;C:\Python312\Scripts;C:\Python312;C:\Program Files\Python311\Scripts;C:\Program Files\Python311;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Git\cmd;C:\Users\acrib\AppData\Roaming\Python\Python311\Scripts;C:\Program Files\Python311;C:\Program Files (x86)\Freescale\CWS12v5.1;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\acrib\AppData\Local\Microsoft\WindowsApps;C:\Program Files\CodeBlocks\MinGW\bin;C:\Users\acrib\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;C:\Users\acrib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\acrib\AppData\Local\GitHubDesktop\bin;C:\Users\acrib\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.
+2023-12-02 13:31:57,523 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.io.tmpdir=C:\Users\acrib\AppData\Local\Temp\
+2023-12-02 13:31:57,523 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.compiler=<NA>
+2023-12-02 13:31:57,523 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.name=Windows 10
+2023-12-02 13:31:57,523 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.arch=amd64
+2023-12-02 13:31:57,523 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.version=10.0
+2023-12-02 13:31:57,523 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.name=acrib
+2023-12-02 13:31:57,523 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.home=C:\Users\acrib
+2023-12-02 13:31:57,524 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.dir=C:\Users\acrib\Desktop\OOP\GameOfLife\apache-zookeeper-3.9.1-bin
+2023-12-02 13:31:57,524 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.free=236MB
+2023-12-02 13:31:57,524 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.max=1000MB
+2023-12-02 13:31:57,524 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.total=254MB
+2023-12-02 13:31:57,524 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@149] - zookeeper.enableEagerACLCheck = false
+2023-12-02 13:31:57,524 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@162] - zookeeper.digest.enabled = true
+2023-12-02 13:31:57,524 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@166] - zookeeper.closeSessionTxn.enabled = true
+2023-12-02 13:31:57,524 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@2251] - zookeeper.serializeLastProcessedZxid.enabled = true
+2023-12-02 13:31:57,524 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1594] - zookeeper.flushDelay = 0 ms
+2023-12-02 13:31:57,525 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1603] - zookeeper.maxWriteQueuePollTime = 0 ms
+2023-12-02 13:31:57,525 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1612] - zookeeper.maxBatchSize=1000
+2023-12-02 13:31:57,525 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@287] - zookeeper.intBufferStartingSizeBytes = 1024
+2023-12-02 13:31:57,526 [myid:] - INFO  [main:o.a.z.s.BlueThrottle@141] - Weighed connection throttling is disabled
+2023-12-02 13:31:57,527 [myid:] - INFO  [main:o.a.z.s.AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+2023-12-02 13:31:57,527 [myid:] - INFO  [main:o.a.z.s.AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+2023-12-02 13:31:57,527 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1406] - minSessionTimeout set to 4000 ms
+2023-12-02 13:31:57,528 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1415] - maxSessionTimeout set to 40000 ms
+2023-12-02 13:31:57,529 [myid:] - INFO  [main:o.a.z.s.ResponseCache@45] - getData response cache size is initialized with value 400.
+2023-12-02 13:31:57,529 [myid:] - INFO  [main:o.a.z.s.ResponseCache@45] - getChildren response cache size is initialized with value 400.
+2023-12-02 13:31:57,529 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+2023-12-02 13:31:57,529 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+2023-12-02 13:31:57,529 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+2023-12-02 13:31:57,529 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+2023-12-02 13:31:57,530 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+2023-12-02 13:31:57,530 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+2023-12-02 13:31:57,532 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1631] - The max bytes for all large requests are set to 104857600
+2023-12-02 13:31:57,533 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1645] - The large request threshold is set to -1
+2023-12-02 13:31:57,533 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@385] - Created server with tickTime 2000 ms minSessionTimeout 4000 ms maxSessionTimeout 40000 ms clientPortListenBacklog -1 datadir \tmp\zookeeper\version-2 snapdir \tmp\zookeeper\version-2
+2023-12-02 13:31:57,556 [myid:] - INFO  [main:o.e.j.u.l.Log@170] - Logging initialized @2495ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-12-02 13:31:57,638 [myid:] - WARN  [main:o.e.j.s.h.ContextHandler@1662] - o.e.j.s.ServletContextHandler@1e6a3214{/,null,STOPPED} contextPath ends with /*
+2023-12-02 13:31:57,639 [myid:] - WARN  [main:o.e.j.s.h.ContextHandler@1673] - Empty contextPath
+2023-12-02 13:31:57,669 [myid:] - INFO  [main:o.e.j.s.Server@375] - jetty-9.4.52.v20230823; built: 2023-08-23T19:29:37.669Z; git: abdcda73818a1a2c705da276edb0bf6581e7997e; jvm 17+35-LTS-2724
+2023-12-02 13:31:57,697 [myid:] - INFO  [main:o.e.j.s.s.DefaultSessionIdManager@334] - DefaultSessionIdManager workerName=node0
+2023-12-02 13:31:57,697 [myid:] - INFO  [main:o.e.j.s.s.DefaultSessionIdManager@339] - No SessionScavenger set, using defaults
+2023-12-02 13:31:57,698 [myid:] - INFO  [main:o.e.j.s.s.HouseKeeper@132] - node0 Scavenging every 660000ms
+2023-12-02 13:31:57,703 [myid:] - WARN  [main:o.e.j.s.ConstraintSecurityHandler@759] - ServletContext@o.e.j.s.ServletContextHandler@1e6a3214{/,null,STARTING} has uncovered http methods for path: /*
+2023-12-02 13:31:57,716 [myid:] - INFO  [main:o.e.j.s.h.ContextHandler@921] - Started o.e.j.s.ServletContextHandler@1e6a3214{/,null,AVAILABLE}
+2023-12-02 13:31:57,769 [myid:] - INFO  [main:o.e.j.s.AbstractConnector@333] - Started ServerConnector@614ca7df{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2023-12-02 13:31:57,770 [myid:] - INFO  [main:o.e.j.s.Server@415] - Started @2710ms
+2023-12-02 13:31:57,770 [myid:] - INFO  [main:o.a.z.s.a.JettyAdminServer@201] - Started AdminServer on address 0.0.0.0, port 8080 and command URL /commands
+2023-12-02 13:31:57,774 [myid:] - INFO  [main:o.a.z.s.ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2023-12-02 13:31:57,776 [myid:] - WARN  [main:o.a.z.s.ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2023-12-02 13:31:57,778 [myid:] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@652] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2023-12-02 13:31:57,783 [myid:] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@660] - binding to port 0.0.0.0/0.0.0.0:2181
+2023-12-02 13:31:57,798 [myid:] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2023-12-02 13:31:57,799 [myid:] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2023-12-02 13:31:57,800 [myid:] - INFO  [main:o.a.z.s.ZKDatabase@135] - zookeeper.snapshotSizeFactor = 0.33
+2023-12-02 13:31:57,801 [myid:] - INFO  [main:o.a.z.s.ZKDatabase@155] - zookeeper.commitLogCount=500
+2023-12-02 13:31:57,810 [myid:] - INFO  [main:o.a.z.s.p.SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2023-12-02 13:31:57,810 [myid:] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x0 to \tmp\zookeeper\version-2\snapshot.0
+2023-12-02 13:31:57,814 [myid:] - INFO  [main:o.a.z.s.ZKDatabase@292] - Snapshot loaded in 13 ms, highest zxid is 0x0, digest is 1371985504
+2023-12-02 13:31:57,816 [myid:] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x0 to \tmp\zookeeper\version-2\snapshot.0
+2023-12-02 13:31:57,817 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@589] - Snapshot taken in 1 ms
+2023-12-02 13:31:57,827 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::o.a.z.s.PrepRequestProcessor@138] - PrepRequestProcessor (sid:0) started, reconfigEnabled=false
+2023-12-02 13:31:57,827 [myid:] - INFO  [main:o.a.z.s.RequestThrottler@75] - zookeeper.request_throttler.shutdownTimeout = 10000 ms
+2023-12-02 13:31:57,850 [myid:] - INFO  [main:o.a.z.s.ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2023-12-02 13:31:57,851 [myid:] - INFO  [main:o.a.z.a.ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2023-12-02 13:32:24,137 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2023-12-02 13:32:24,137 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@224] - The list of enabled four letter word commands is : [[srvr]]
+2023-12-02 13:32:24,137 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@529] - Processing srvr command from /127.0.0.1:56672
