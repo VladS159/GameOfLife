@@ -2,6 +2,7 @@ package gameOfLife;
 
 import java.util.Random;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.Semaphore;
 
 import finalTest.Send;
 
@@ -12,6 +13,7 @@ public abstract class Cell extends Thread
 	private Coordinates targetPosition = new Coordinates(0,0);
 	private int t_starve;
 	private int noOfMeals;
+	private static final Semaphore foodSemaphore = new Semaphore(1);
 
 	static CopyOnWriteArrayList<Cell> cellArray = new CopyOnWriteArrayList<>();
 	static CopyOnWriteArrayList<FoodUnit> foodArray = new CopyOnWriteArrayList<>();
@@ -67,10 +69,18 @@ public abstract class Cell extends Thread
 		if(!Cell.foodArray.isEmpty()){
 			FoodUnit targetFood = computeFoodTarget();
 			if(isNearTarget()){
-				synchronized (targetFood){
+//				synchronized (targetFood){
+				foodSemaphore.acquire();
+				try {
 					if(targetFood != null){
 						Send eatMessage = new Send("eatQueue");
-						eatMessage.produce("You ate the apple");
+						
+						String onEatMessage = "";
+						onEatMessage += "You ate the apple " + targetFood + " from: ";
+						onEatMessage += "X coordinate: " + targetFood.getFoodPosition().getXCoordinate() + "; Y coordinate: " + targetFood.getFoodPosition().getYCoordinate() + "\n";
+						onEatMessage += this + " X coordinate : "+ this.position.getXCoordinate() + " Y coordinate : " + this.position.getYCoordinate();
+						
+						eatMessage.produce(onEatMessage);
 						
 						System.out.print("You ate the apple from ");
 						System.out.println("X coordinate: " + targetFood.getFoodPosition().getXCoordinate() + "; Y coordinate: " + targetFood.getFoodPosition().getYCoordinate());
@@ -87,6 +97,8 @@ public abstract class Cell extends Thread
 						}
 						noOfMeals++;
 					}
+				} finally {
+					foodSemaphore.release();
 				}
 			}
 			else{

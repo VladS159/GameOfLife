@@ -21,7 +21,12 @@ public class SexualCell extends Cell
             	synchronized (pairReproductionLock){
             		if(targetCell.getCellState() == CurrentState.HORNEE){
             			Send reproduceMessage = new Send("sexualReproductionQueue");
-            			reproduceMessage.produce("You made a healthy baby cell (sexually ^_^*)");
+            			
+            			String onSexualReprodMessage = "";
+            			onSexualReprodMessage += "You made a healthy baby cell (sexually ^_^*)\n";
+            			onSexualReprodMessage += "Parents: " + this + ", " + targetCell;
+            			
+            			reproduceMessage.produce(onSexualReprodMessage);
             			
 		                System.out.println("Sexual reproduction!");
 //		                System.out.println(this + " X coordinate : "+ this.getCellPosition().getXCoordinate() + " Y coordinate : " + this.getCellPosition().getYCoordinate());

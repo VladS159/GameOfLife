@@ -10,7 +10,12 @@ public class AsexualCell extends Cell
     @Override
     public void reproduce() throws Exception{
     	Send reproduceMessage = new Send("asexualReproductionQueue");
-		reproduceMessage.produce("You made a baby cell.. kinda(asexually 6-6)");
+    	
+    	String onAsexualReprodMessage = "";
+    	onAsexualReprodMessage += "You made a baby cell.. kinda (asexually 6-6)\n";
+    	onAsexualReprodMessage += "Parent: " + this;
+    	
+		reproduceMessage.produce(onAsexualReprodMessage);
 		
         System.out.println("pov of " + this + ": Asexual reproduction!");
         Cell.cellArray.add(new AsexualCell(Main.getGrid()));

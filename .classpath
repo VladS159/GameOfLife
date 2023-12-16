@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="theGameOfLife/src"/>
+	<classpathentry kind="lib" path="theGameOfLife/jarFolder/amqp-client-5.16.0.jar"/>
+	<classpathentry kind="lib" path="theGameOfLife/jarFolder/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="theGameOfLife/jarFolder/slf4j-simple-1.7.36.jar"/>
+	<classpathentry kind="output" path="theGameOfLife/bin"/>
+</classpath>

@@ -17,11 +17,11 @@ public class Main
 		Coordinates upperPoint = new Coordinates(20,20);
 		g = new Grid(upperPoint, lowerPoint);
 
-		for(int i=0; i<30; i++){
+		for(int i=0; i<15; i++){
 			Cell.foodArray.add(new FoodUnit(Main.getGrid()));
 		}
 
-		for(int i=0; i<2; i++){
+		for(int i=0; i<3; i++){
 			Cell.cellArray.add(new SexualCell(Main.getGrid()));
 		}
 		
