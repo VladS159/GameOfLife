@@ -170,6 +170,7 @@ public abstract class Cell extends Thread
 		for(Cell cell : Cell.cellArray){
 			if((t_starve == 0)){
 				Cell.cellArray.remove(cell);
+				break;
 			}
 		}
 
