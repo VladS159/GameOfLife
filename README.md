@@ -10,8 +10,8 @@
  We want to create a grid where the resources (food) are limited. There are 2 types of cells, sexual and asexual,
 each with their specific type of reproduction, affecting the enclosed environment that we will be simulating in
 very specific ways. Asexual cells will multiply through division, resulting in 2 hungry cells, and the
-sexual cells will produce a third cell, which initially is hungry. Cells can also die, adding to the food supply.
-Cells move around the greed with 2 primary goals, feeding and reproducing.
+sexual cells will produce a third cell, which is initially hungry. Cells can also die, adding to the food supply.
+Cells move around the grid with 2 primary goals, feeding and reproducing.
 
 ## Possible concurrency problems
  - Race Conditions: issues arising when different cells try to access resources or reproduce simultaneously:
